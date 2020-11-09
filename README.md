@@ -1,2 +1,2 @@
-# Calculadora-IMC
-Calculadora que calcula o IMC de uma pessoa.
+# Validador de Formulario em JS
+Validador de formulario criado emJS puro.
