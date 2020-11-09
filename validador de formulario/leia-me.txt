@@ -1,0 +1,32 @@
+Validador de formulario
+
+programa que retorne qual campo está vazio ao clicar em enviar
+caso todos os campos estiverem preenchidos exiba o resultado na tela
+
+
+Estrutura 
+
+Nome:
+
+Sobrenome:
+
+Sexo:
+
+Endereço:
+
+Cidade:
+
+Estado: 
+
+Email: 
+
+Telefone:
+
+
+feito front-end - OK
+
+inciadao o script de checagem - ok
+
+
+
+

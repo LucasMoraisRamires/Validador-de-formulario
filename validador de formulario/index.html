@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+
+    <section>
+       
+        <div class="form-section">
+            <h2 class="title" align="center">Validador de fomulario</h2>
+            <div class="form">
+                <div class="form-fields">
+                                 
+
+                    <label for="">Nome:</label>
+                    <br>
+                    <input type="text" name="nome" id="nome" placeholder="Insira o nome:">
+                    <br>
+                    <br>
+                    
+                    
+
+                    <br>
+                    <label for="">Sobrenome:</label>
+                    <br>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Insira o sobrenome:">
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Sexo:</label><br><br>
+                    
+                    <input type="radio" class="input-radio" name="sexo" id="Masculino"  value="M" CHECKED/><label for="Masculino"> Masculino</label>
+                    
+                    <input type="radio" class="input-radio" name="sexo" id="Feminino" value="F"/><label for="Feminino"> Feminino</label>
+            
+                    <br>
+                    <br>
+
+                    
+
+                    <br>
+                    <label for="">Endereço:</label>
+                    <br>
+                    <input type="text" name="endereco" id="endereco" placeholder="Informe o endereço: Bairro, rua, numero...">
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Cidade:</label>
+                    <br>
+                    <input type="text" name="cidade" id="cidade" placeholder="Informe a cidade:">
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Estado: </label>
+                    <br>
+                    <select id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Email: </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Exemplo@exemplo.com...">
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Telefone:</label>
+                    <br>
+                    <input type="text" name="telefone" id="telefone" placeholder="">
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Senha:</label>
+                    <br>
+                    <input type="password" name="senha" id="senha" placeholder="Insira uma senha:">
+                    <br>
+                    <br>
+
+                    <br>
+                    <label for="">Senha novamente:</label>
+                    <br>
+                    <input type="password" name="repetirSenha" id="repetirSenha" placeholder="Digite novamente:">
+                    <br>
+                    <br>
+
+
+                    <br>
+                    <button id="cadastrar" onclick="checaCampos()">Cadastrar</button>
+                
+
+                  <div  class="resposta" id="resposta">
+
+                </div>
+           
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+
+</html>
